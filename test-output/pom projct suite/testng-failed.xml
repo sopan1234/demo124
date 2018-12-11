@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [pom projct suite]">
+  <test name="pom project(failed)">
+    <classes>
+      <class name="com.qa.tests.HomePageTest">
+        <methods>
+          <include name="tear"/>
+          <include name="name"/>
+          <include name="HomepageTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearup"/>
+          <include name="logintext"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- pom project(failed) -->
+</suite> <!-- Failed suite [pom projct suite] -->
